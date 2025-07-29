@@ -5,6 +5,12 @@ import { useRef, useState } from "react";
 import type { Swiper as SwiperClass } from "swiper/types";
 import 'swiper/css';
 import s from "./Slider.module.css";
+import bgSlide1 from "/public/slide1-bg.svg";
+import bgSlide2 from "/public/slide2-bg.svg";
+import bgSlide3 from "/public/slide3-bg.svg";
+import imgSlide1 from "/public/slide1-img.png";
+import imgSlide2 from "/public/slide2-img.png";
+import imgSlide3 from "/public/slide3-img.png";
 
 const slides: SlideType[] = [
   {
@@ -14,8 +20,8 @@ const slides: SlideType[] = [
       "your brokerage business will be up and running within the shortest time the industry have to offer.",
     linkLearnMore: "/",
     slideImg: {
-      bgSrc: "/src/assets/slide1-bg.svg",
-      src: "/src/assets/slide1-img.png",
+      bgSrc: bgSlide1,
+      src: imgSlide1,
       alt: "Titan Slide Image",
     },
   },
@@ -25,8 +31,8 @@ const slides: SlideType[] = [
     subTitle: "Get your business plan ready with our experts.",
     linkLearnMore: "/",
     slideImg: {
-      bgSrc: "/src/assets/slide2-bg.svg",
-      src: "/src/assets/slide2-img.png",
+      bgSrc: bgSlide2,
+      src: imgSlide2,
       alt: "Titan Slide Image",
     },
   },
@@ -37,8 +43,8 @@ const slides: SlideType[] = [
       "Time to make changes and get better technological solution and pricing!",
     linkLearnMore: "/",
     slideImg: {
-      bgSrc: "/src/assets/slide3-bg.svg",
-      src: "/src/assets/slide3-img.png",
+      bgSrc: bgSlide3,
+      src: imgSlide3,
       alt: "Titan Slide Image",
     },
   },
