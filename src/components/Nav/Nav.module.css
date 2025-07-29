@@ -1,12 +1,9 @@
-.nav {
-}
-
 .navList {
   display: flex;
   gap: 16px;
 }
 
-@media (min-width: 768px) {
+@media (width >= 768px) {
   .navList {
     gap: 36px;
   }

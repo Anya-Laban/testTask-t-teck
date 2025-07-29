@@ -1,5 +1,5 @@
-import type React from "react";
-import s from "./NavItem.module.css";
+import type React from 'react';
+import s from './NavItem.module.css';
 
 type Props = {
   title: string;
