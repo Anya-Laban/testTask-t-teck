@@ -16,7 +16,7 @@ const slidesImagesData: SlideImageData[] = [
     height: "424px",
     images: [
       {
-        src: "/src/assets/slide1/image-1.png",
+        src: `${import.meta.env.BASE_URL}slide1/image-1.png`,
         width: "340px",
         height: "319px",
         top: "50px",
@@ -25,7 +25,7 @@ const slidesImagesData: SlideImageData[] = [
         firstLeft: "300px",
       },
       {
-        src: "/src/assets/slide1/image-2.png",
+        src: `${import.meta.env.BASE_URL}slide1/image-2.png`,
         width: "157px",
         height: "121px",
         top: "110px",
@@ -34,7 +34,7 @@ const slidesImagesData: SlideImageData[] = [
         firstLeft: "100px",
       },
       {
-        src: "/src/assets/slide1/image-3.png",
+        src: `${import.meta.env.BASE_URL}slide1/image-3.png`,
         width: "34px",
         height: "23px",
         top: "285px",
@@ -43,7 +43,7 @@ const slidesImagesData: SlideImageData[] = [
         firstLeft: "350px",
       },
       {
-        src: "/src/assets/slide1/image-4.png",
+        src: `${import.meta.env.BASE_URL}slide1/image-4.png`,
         width: "32px",
         height: "23px",
         top: "300px",
@@ -52,7 +52,7 @@ const slidesImagesData: SlideImageData[] = [
         firstLeft: "100px",
       },
       {
-        src: "/src/assets/slide1/image-5.png",
+        src: `${import.meta.env.BASE_URL}slide1/image-5.png`,
         width: "37px",
         height: "34px",
         top: "360px",
@@ -61,7 +61,7 @@ const slidesImagesData: SlideImageData[] = [
         firstLeft: "400px",
       },
       {
-        src: "/src/assets/slide1/image-6.png",
+        src: `${import.meta.env.BASE_URL}slide1/image-6.png`,
         width: "114px",
         height: "190px",
         top: "215px",
@@ -70,7 +70,7 @@ const slidesImagesData: SlideImageData[] = [
         firstLeft: "600px",
       },
       {
-        src: "/src/assets/slide1/image-7.png",
+        src: `${import.meta.env.BASE_URL}slide1/image-7.png`,
         width: "35px",
         height: "24px",
         top: "390px",
@@ -79,7 +79,7 @@ const slidesImagesData: SlideImageData[] = [
         firstLeft: "-100px",
       },
       {
-        src: "/src/assets/slide1/image-8.png",
+        src: `${import.meta.env.BASE_URL}slide1/image-8.png`,
         width: "28px",
         height: "19px",
         top: "275px",
@@ -88,7 +88,7 @@ const slidesImagesData: SlideImageData[] = [
         firstLeft: "-50px",
       },
       {
-        src: "/src/assets/slide1/image-9.png",
+        src: `${import.meta.env.BASE_URL}slide1/image-9.png`,
         width: "51px",
         height: "164px",
         top: "250px",
@@ -97,7 +97,7 @@ const slidesImagesData: SlideImageData[] = [
         firstLeft: "-200px",
       },
       {
-        src: "/src/assets/slide1/image-10.png",
+        src: `${import.meta.env.BASE_URL}slide1/image-10.png`,
         width: "36px",
         height: "25px",
         top: "440px",
@@ -113,7 +113,7 @@ const slidesImagesData: SlideImageData[] = [
     height: "493px",
     images: [
       {
-        src: "/src/assets/slide2/image-1.png",
+        src: `${import.meta.env.BASE_URL}slide2/image-1.png`,
         width: "368px",
         height: "382px",
         top: "45px",
@@ -122,7 +122,7 @@ const slidesImagesData: SlideImageData[] = [
         firstLeft: "240px",
       },
       {
-        src: "/src/assets/slide2/image-2.png",
+        src: `${import.meta.env.BASE_URL}slide2/image-2.png`,
         width: "114px",
         height: "82px",
         top: "340px",
@@ -131,7 +131,7 @@ const slidesImagesData: SlideImageData[] = [
         firstLeft: "100px",
       },
       {
-        src: "/src/assets/slide2/image-3.png",
+        src: `${import.meta.env.BASE_URL}slide2/image-3.png`,
         width: "94.5px",
         height: "133px",
         top: "220px",
@@ -140,7 +140,7 @@ const slidesImagesData: SlideImageData[] = [
         firstLeft: "-200px",
       },
       {
-        src: "/src/assets/slide2/image-4.png",
+        src: `${import.meta.env.BASE_URL}slide2/image-4.png`,
         width: "183px",
         height: "109px",
         top: "430px",
@@ -149,7 +149,7 @@ const slidesImagesData: SlideImageData[] = [
         firstLeft: "0px",
       },
       {
-        src: "/src/assets/slide2/image-5.png",
+        src: `${import.meta.env.BASE_URL}slide2/image-5.png`,
         width: "170px",
         height: "230px",
         top: "245px",
@@ -158,7 +158,7 @@ const slidesImagesData: SlideImageData[] = [
         firstLeft: "500px",
       },
       {
-        src: "/src/assets/slide2/image-6.png",
+        src: `${import.meta.env.BASE_URL}slide2/image-6.png`,
         width: "85px",
         height: "191px",
         top: "145px",
@@ -167,7 +167,7 @@ const slidesImagesData: SlideImageData[] = [
         firstLeft: "-150px",
       },
       {
-        src: "/src/assets/slide2/image-7.png",
+        src: `${import.meta.env.BASE_URL}slide2/image-7.png`,
         width: "116px",
         height: "69px",
         top: "450px",
@@ -183,7 +183,7 @@ const slidesImagesData: SlideImageData[] = [
     height: "446px",
     images: [
       {
-        src: "/src/assets/slide3/item-1.png",
+        src: `${import.meta.env.BASE_URL}slide3/item-1.png`,
         width: "83px",
         height: "140px",
         top: "0px",
@@ -192,7 +192,7 @@ const slidesImagesData: SlideImageData[] = [
         firstLeft: "265px",
       },
       {
-        src: "/src/assets/slide3/item-2.png",
+        src: `${import.meta.env.BASE_URL}slide3/item-2.png`,
         width: "63px",
         height: "72px",
         top: "50px",
@@ -201,7 +201,7 @@ const slidesImagesData: SlideImageData[] = [
         firstLeft: "-100px",
       },
       {
-        src: "/src/assets/slide3/item-3.png",
+        src: `${import.meta.env.BASE_URL}slide3/item-3.png`,
         width: "99px",
         height: "164px",
         top: "135px",
@@ -210,7 +210,7 @@ const slidesImagesData: SlideImageData[] = [
         firstLeft: "500px",
       },
       {
-        src: "/src/assets/slide3/item-2.png",
+        src: `${import.meta.env.BASE_URL}slide3/item-2.png`,
         width: "63px",
         height: "72px",
         top: "190px",
@@ -219,7 +219,7 @@ const slidesImagesData: SlideImageData[] = [
         firstLeft: "-80px",
       },
       {
-        src: "/src/assets/slide3/item-4.png",
+        src: `${import.meta.env.BASE_URL}slide3/item-4.png`,
         width: "106px",
         height: "165px",
         top: "265px",
@@ -228,7 +228,7 @@ const slidesImagesData: SlideImageData[] = [
         firstLeft: "-150px",
       },
       {
-        src: "/src/assets/slide3/item-5.png",
+        src: `${import.meta.env.BASE_URL}slide3/item-5.png`,
         width: "99px",
         height: "209px",
         top: "175px",
@@ -237,7 +237,7 @@ const slidesImagesData: SlideImageData[] = [
         firstLeft: "330px",
       },
       {
-        src: "/src/assets/slide3/item-2.png",
+        src: `${import.meta.env.BASE_URL}slide3/item-2.png`,
         width: "63px",
         height: "72px",
         top: "395px",
