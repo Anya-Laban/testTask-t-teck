@@ -1,0 +1,23 @@
+.slider {
+  margin-top: 20px;
+}
+
+.sliderControls {
+  margin: 0 auto;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 19px;
+}
+
+.dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #81B4DA;
+  border: none;
+}
+
+.activeDot {
+  background-color: #3C5186;
+}

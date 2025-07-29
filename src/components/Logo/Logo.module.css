@@ -1,0 +1,9 @@
+.logo {
+  max-width: 155px;
+  display: flex;
+}
+
+.logo > img {
+  width: 100%;
+  height: auto;
+}
