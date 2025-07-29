@@ -254,7 +254,7 @@ export const slides: Slide[] = [
     title: 'With our advanced financial technologies',
     subTitle:
       'your brokerage business will be up and running within the shortest time the industry have to offer.',
-    linkLearnMore: '/',
+    linkLearnMore: '#',
     slideImg: {
       bgSrc: `${import.meta.env.BASE_URL}slide1-bg.svg`,
       src: `${import.meta.env.BASE_URL}slide1-img.png`,
@@ -265,7 +265,7 @@ export const slides: Slide[] = [
     id: 2,
     title: 'Looking to open a brokerage?',
     subTitle: 'Get your business plan ready with our experts.',
-    linkLearnMore: '/',
+    linkLearnMore: '#',
     slideImg: {
       bgSrc: `${import.meta.env.BASE_URL}slide2-bg.svg`,
       src: `${import.meta.env.BASE_URL}slide2-img.png`,
@@ -276,7 +276,7 @@ export const slides: Slide[] = [
     id: 3,
     title: 'Are you an established company?',
     subTitle: 'Time to make changes and get better technological solution and pricing!',
-    linkLearnMore: '/',
+    linkLearnMore: '#',
     slideImg: {
       bgSrc: `${import.meta.env.BASE_URL}slide3-bg.svg`,
       src: `${import.meta.env.BASE_URL}slide3-img.png`,
