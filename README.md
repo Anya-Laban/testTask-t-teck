@@ -15,5 +15,5 @@ https://anya-laban.github.io/testTask-t-teck/
 ## How to run
 
 ```bash
-npm install
+npm install --legacy-peer-deps
 npm run dev
